@@ -21,7 +21,7 @@ rails g scaffold post title content:text user:references
 
 rake db:migrate -> rake test
 
-/Users/hyunkyung/project/facebook/test/controllers/posts_controller_test.rb
+/test/controllers/posts_controller_test.rb
 
 
 
@@ -37,7 +37,7 @@ get :index #url이 잘 잘동되는지 물어보는것
 
 
 
-/Users/hyunkyung/project/facebook/test/fixtures/posts.yml
+/test/fixtures/posts.yml
 
 rake db:drop
 
@@ -64,7 +64,7 @@ Front-end Validation
 
 가장 낮은 단계인  DB Validation
 
-/Users/hyunkyung/project/facebook/db/migrate/20171201003904_create_posts.rb
+/db/migrate/20171201003904_create_posts.rb
 
 여기서부터 시작
 
